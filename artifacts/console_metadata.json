@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.34+commit.80d5c536"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".deps/npm/hardhat@3.2.0/console.sol": "console"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".deps/npm/hardhat@3.2.0/console.sol": {
+			"keccak256": "0xa88d71382984c749466bcce31c2af36e9e2030df6c9b639203518028259f414a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7f9dff2faf7b7dbf796bdd36e627a67160d78e39f154aadadce86a50c9cf9fa5",
+				"dweb:/ipfs/QmYtpRYnhrLhn2HVCbJBsfvm46QYUhafCWMFcQj1Awpst9"
+			]
+		}
+	},
+	"version": 1
+}

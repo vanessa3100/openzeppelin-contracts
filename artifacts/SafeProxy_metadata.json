@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.34+commit.80d5c536"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_singleton",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			}
+		],
+		"devdoc": {
+			"author": "Stefan George - <stefan@gnosis.io>Richard Meissner - <richard@gnosis.io>",
+			"kind": "dev",
+			"methods": {
+				"constructor": {
+					"params": {
+						"_singleton": "Singleton address."
+					}
+				}
+			},
+			"title": "SafeProxy - Generic proxy contract allows to execute all transactions applying the code of a master contract.",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"constructor": {
+					"notice": "Constructor function sets address of singleton contract."
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"sourcify-verified/137/0xEFd77064175BA6f0f2436826964fe4fFf7cCAB34/sources/contracts/proxies/SafeProxy.sol": "SafeProxy"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"sourcify-verified/137/0xEFd77064175BA6f0f2436826964fe4fFf7cCAB34/sources/contracts/proxies/SafeProxy.sol": {
+			"keccak256": "0x5dccbe86285c1d4c4b2fed0ae8007620c3186d22411f43feecfbf8a028e5c7e2",
+			"license": "LGPL-3.0-only",
+			"urls": [
+				"bzz-raw://a1a02d01a92895110505e141d05b0924ea457a25b89a161f0aeedf6b5cb41aec",
+				"dweb:/ipfs/QmYWEsFbWwtrVvEF9MNQtf4X3Qt13dAE8o44tEyAS9jmKP"
+			]
+		}
+	},
+	"version": 1
+}
