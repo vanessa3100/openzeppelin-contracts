@@ -8,7 +8,7 @@ library console {
     function _sendLogPayloadImplementation(bytes memory payload) internal view {
         address consoleAddress = CONSOLE_ADDRESS;
         /// @solidity memory-safe-assembly
-        assembly {
+        .deps/npm/hardhat@3.2.0/console.sol:11:9:
             pop(
                 staticcall(
                     gas(),
